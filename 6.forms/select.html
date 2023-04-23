@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple and single Select</title>
+  </head>
+  <body>
+    <h1>Multiple Select And Single Select</h1>
+    <hr />
+
+    <form>
+      <!--Single select-->
+      <div>
+        <lable>Select your best programming language</lable>
+      </div>
+      <select name="languages">
+        <option value="js">Javascript</option>
+        <option value="java">Java</option>
+        <option value="py">Python</option>
+        <option value="mongo">MongoDB</option>
+        <option value="react">React JS</option>
+        <option selected value="node">Node JS</option>
+      </select>
+      <!--Multiple select-->
+      <div>
+        <lable>Select your best programming language</lable>
+      </div>
+      <select name="languages" multiple>
+        <option value="js">Javascript</option>
+        <option selected value="java">Java</option>
+        <option value="py">Python</option>
+        <option selected value="mongo">MongoDB</option>
+        <option value="react">React JS</option>
+        <option value="node">Node JS</option>
+      </select>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Form</title>
+  </head>
+  <body>
+    <!-- ! Forms-->
+    <h1>Form input attributes</h1>
+    <hr />
+    <form>
+      <!--type attribute-->
+      <div>
+        <label>Enter Full name</label>
+        <input type="text" />
+      </div>
+      <br />
+      <!--Name attribute-->
+      <div>
+        <label>Passowrd</label>
+        <input type="password" name="12345" />
+      </div>
+      <br />
+      <!--value attribute-->
+      <div>
+        <label>Passowrd</label>
+        <input type="number" name="12345" value="200" />
+      </div>
+      <br />
+      <!--check boc attribute-->
+      <div>
+        <label>checkbox</label>
+        <input type="checkbox" />
+      </div>
+      <br />
+
+      <!-- !required attribute-->
+      <div>
+        <label>Reqquired</label>
+        <input type="number" required />
+      </div>
+      <br />
+      <!-- !placeholder attribute-->
+      <div>
+        <label>placeholder</label>
+        <input type="number" placeholder="Please Enter a value" />
+      </div>
+      <br />
+
+      <!-- !min and max attribute-->
+      <div>
+        <label>Min and Max</label>
+        <input type="number" min="10" max="1000" />
+      </div>
+      <br />
+      <!-- !step attribute-->
+      <div>
+        <label>Step</label>
+        <input type="number" step="10" min="10" max="1000" />
+      </div>
+      <br />
+
+      <!-- !color type-->
+      <div>
+        <label>Color</label>
+        <input type="color" />
+      </div>
+      <br />
+
+      <!-- !date type-->
+      <div>
+        <label>Date</label>
+        <input type="date" />
+      </div>
+
+      <!-- !file type-->
+      <div>
+        <label>File</label>
+        <input type="file" />
+      </div>
+      <br />
+
+      <!-- !button type-->
+      <input type="button" value="Submit" />
+    </form>
+  </body>
+</html>

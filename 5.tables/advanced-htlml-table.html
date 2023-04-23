@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced HTML table</title>
+  </head>
+  <body>
+    <h1>Advanced HTML Table</h1>
+    <hr />
+    <table style="width: 100%; border: 1px solid #ccc; margin: 20px 0">
+      <!--caption-->
+      <caption
+        style="text-align: left; font-weight: bolder; margin-bottom: 10px"
+      >
+        Sales Report
+      </caption>
+      <colgroup>
+        <col style="width: 20%" />
+        <col style="width: 30%" />
+        <col style="width: 25%" />
+        <col style="width: 25%" />
+      </colgroup>
+      <!-- Table Head-->
+      <thead>
+        <tr style="background-color: #f0f0f0">
+          <th style="padding: 10px; border: 1px solid #ccc; text-align: left">
+            Region
+          </th>
+          <th style="padding: 10px; border: 1px solid #ccc; text-align: left">
+            Product
+          </th>
+          <th style="padding: 10px; border: 1px solid #ccc; text-align: left">
+            Quantity Sold
+          </th>
+          <th style="padding: 10px; border: 1px solid #ccc; text-align: left">
+            Total Sales
+          </th>
+        </tr>
+      </thead>
+      <!--Table body-->
+      <tbody>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ccc">Concord</td>
+          <td style="padding: 10px; border: 1px solid #ccc">Tv</td>
+          <td style="padding: 10px; border: 1px solid #ccc">4</td>
+          <td style="padding: 10px; border: 1px solid #ccc">5000</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ccc">Rochester</td>
+          <td style="padding: 10px; border: 1px solid #ccc">Phone</td>
+          <td style="padding: 10px; border: 1px solid #ccc">6</td>
+          <td style="padding: 10px; border: 1px solid #ccc">6000</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ccc">Sunnyvale</td>
+          <td style="padding: 10px; border: 1px solid #ccc">bottle</td>
+          <td style="padding: 10px; border: 1px solid #ccc">46</td>
+          <td style="padding: 10px; border: 1px solid #ccc">460</td>
+        </tr>
+      </tbody>
+      <!--Table footer-->
+      <tfoot>
+        <tr>
+          <td
+            style="
+              padding: 10px;
+              font-size: 30px;
+              color: black;
+              font-weight: bolder;
+            "
+          >
+            Total Sales
+          </td>
+          <td></td>
+          <td></td>
+          <td
+            style="
+              padding: 10px;
+              font-size: 30px;
+              color: black;
+              font-weight: bolder;
+            "
+          >
+            11460
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
